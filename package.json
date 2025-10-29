@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build -r https://github.com/Dhivanan46/Portfolio-CI-CD-with-GitHub-AWS.git"
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://Dhivanan46.github.io/Portfolio-CI-CD-with-GitHub-AWS",
+  "homepage": "https://Dhivanan46.github.io/Portfolio-CI-CD",
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.12",
