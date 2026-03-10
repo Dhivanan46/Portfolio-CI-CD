@@ -7,8 +7,8 @@ const Skills = () => {
       title: "Frontend Development",
       skills: [
         { name: "HTML & CSS", level: 90, color: "from-pink-500 to-cyan-500" },
-        { name: "JavaScript", level: 95, color: "from-yellow-500 to-orange-500" },
-        { name: "React js", level: 85, color: "from-blue-600 to-blue-800" },
+        { name: "JavaScript", level: 85, color: "from-yellow-500 to-orange-500" },
+        { name: "React js", level: 87, color: "from-blue-600 to-blue-800" },
         { name: "Tailwind CSS", level: 90, color: "from-teal-500 to-blue-500" },
       ]
     },
@@ -17,7 +17,6 @@ const Skills = () => {
       skills: [
         { name: "Java", level: 95, color: "from-green-500 to-green-700" },
         { name: "Node js", level: 80, color: "from-blue-500 to-yellow-500" },
-        { name: "Express js", level: 75, color: "from-purple-600 to-red-800" },
         { name: "MongoDB", level: 75, color: "from-orange-500 to-green-700" },
         { name: "MySQL", level: 90, color: "from-purple-500 to-indigo-600" },
       ]
@@ -26,8 +25,8 @@ const Skills = () => {
       title: "Tools & Technologies",
       skills: [
         { name: "Git & GitHub", level: 90, color: "from-red-700 to-yellow-600" },
-        { name: "Docker", level: 70, color: "from-pink-500 to-blue-700" },
-        { name: "AWS", level: 65, color: "from-orange-500 to-yellow-500" },
+        { name: "AWS", level: 85, color: "from-pink-500 to-blue-700" },
+        { name: "Jenkins", level: 65, color: "from-orange-500 to-yellow-500" },
         { name: "VS Code", level: 95, color: "from-blue-600 to-blue-800" }
       ]
     }
@@ -98,12 +97,9 @@ const Skills = () => {
                     variants={itemVariants}
                     className="space-y-2"
                   >
-                    <div className="flex justify-between items-center">
+                    <div className="flex items-center">
                       <span className="font-medium text-gray-700 dark:text-gray-300">
                         {skill.name}
-                      </span>
-                      <span className="text-sm text-gray-500 dark:text-gray-400">
-                        {skill.level}%
                       </span>
                     </div>
                     <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">

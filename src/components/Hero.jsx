@@ -88,7 +88,7 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
            <a
-            href="https://drive.google.com/file/d/1w6gZq_4bcBak3nDWyQlvggtWzbDw1OuE/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Ihic5qL0VuMdAiqnlsfBbPMqiB4EzFO7/view?usp=drive_link"
             target="_blank"
               rel="noopener noreferrer"
             >

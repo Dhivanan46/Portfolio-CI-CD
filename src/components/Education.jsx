@@ -10,7 +10,7 @@ const Education = () => {
       institution: "Sri Shakthi Institute",
       location: "Coimbatore, TN",
       period: "2022 - 2026",
-      gpa: "8.34/10.0",
+      gpa: "8.19/10.0",
       description: "Specialized in Software Development and Embedded Systems, Comprehensive study in Computer Science fundamentals, algorithms, and software development methodologies.",
       color: "from-red-500 to-red-600"
     },

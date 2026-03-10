@@ -7,12 +7,12 @@ const Projects = () => {
     
     {
       id: 1,
-      title: "Job Portal Web Application",
+      title: "HireHub | Job Portal",
       description: "Designed a MERN stack-based job portal website with features like job listing, user authentication, and application tracking.",
       image: "https://ucarecdn.com/54ba8b6e-09da-433b-aadd-65c4f053c4ce/job.png",
-      technologies: ["React", "MongoDB Atlas", "Express", "node"],
-      liveUrl: "https://jobify.live",
-      codeUrl: "https://github.com",
+      technologies: ["React", "MongoDB Atlas", "Node", "AWS"],
+      liveUrl: "https://t3.ftcdn.net/jpg/01/26/39/54/360_F_126395469_FnlY3ZgaAZaosjmSbkgA3I5sS3UXN78T.jpg",
+      codeUrl: "https://github.com/Dhivanan46/Job-portal",
       featured: true
     },
     {
@@ -44,6 +44,16 @@ const Projects = () => {
       liveUrl: "https://example.com",
       codeUrl: "https://github.com/Dhivanan46/Recycle-of-DVD-player-into-CNC-Plotter",
       featured: false
+    },
+    {
+      id: 5,
+      title: "Digital Twin Based Solar Panel",
+      description: "Design and Development of a Digital Twin-Based IoT Integrated Solar Panel System for Real-Time Efficiency Monitoring with a Web Interface for Tracking Individual Solar Array Status.",
+      image: "https://ucarecdn.com/7cf03c50-9487-44aa-9b27-7aad4af151ad/Solar.png",
+      technologies: ["React", "MongoDB Atlas", "Node", "AWS"],
+      liveUrl: "https://t3.ftcdn.net/jpg/01/26/39/54/360_F_126395469_FnlY3ZgaAZaosjmSbkgA3I5sS3UXN78T.jpg",
+      codeUrl: "https://github.com/Dhivanan46/Digital-Twin-Based-Solar-Panel-Efficiency-Monitoring-System",
+      featured: true
     }
   ];
 
@@ -137,7 +147,7 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-4">
-  {project.id === 1 && (
+  {(project.id === 1 )&& (
     <motion.a
       href={project.liveUrl}
       target="_blank"
