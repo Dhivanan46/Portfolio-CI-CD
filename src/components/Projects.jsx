@@ -10,7 +10,7 @@ const Projects = () => {
       title: "HireHub | Job Portal",
       description: "Designed a MERN stack-based job portal website with features like job listing, user authentication, and application tracking.",
       image: "https://ucarecdn.com/54ba8b6e-09da-433b-aadd-65c4f053c4ce/job.png",
-      technologies: ["React", "MongoDB Atlas", "Node", "AWS"],
+      technologies: ["React", "MongoDB", "Node", "AWS"],
       liveUrl: "https://t3.ftcdn.net/jpg/01/26/39/54/360_F_126395469_FnlY3ZgaAZaosjmSbkgA3I5sS3UXN78T.jpg",
       codeUrl: "https://github.com/Dhivanan46/Job-portal",
       featured: true
@@ -30,7 +30,7 @@ const Projects = () => {
       title: "Glow Guard | Smart Street Lamp",
       description: "Designed a IOT-based system for street lamp fault detection and location tracking.",
       image: "https://ucarecdn.com/4d86ec3d-d2c3-4488-b1d5-139e0f80dde3/street.jpg",
-      technologies: ["Vue.js", "Chart.js", "OpenWeather API", "Tailwind"],
+      technologies: ["ESP32", "Tele-Bot API", "G-Maps API", "C Programming"],
       liveUrl: "https://example.com",
       codeUrl: "https://github.com/Dhivanan46/STREET-LAMP-FAULT-DETECTION-AND-LOCATION-TRACKING-",
       featured: false
@@ -50,7 +50,7 @@ const Projects = () => {
       title: "Digital Twin Based Solar Panel",
       description: "Design and Development of a Digital Twin-Based IoT Integrated Solar Panel System for Real-Time Efficiency Monitoring with a Web Interface for Tracking Individual Solar Array Status.",
       image: "https://ucarecdn.com/7cf03c50-9487-44aa-9b27-7aad4af151ad/Solar.png",
-      technologies: ["React", "MongoDB Atlas", "Node", "AWS"],
+      technologies: ["Arduino", "C Programming", "React", "Networking"],
       liveUrl: "https://t3.ftcdn.net/jpg/01/26/39/54/360_F_126395469_FnlY3ZgaAZaosjmSbkgA3I5sS3UXN78T.jpg",
       codeUrl: "https://github.com/Dhivanan46/Digital-Twin-Based-Solar-Panel-Efficiency-Monitoring-System",
       featured: true
