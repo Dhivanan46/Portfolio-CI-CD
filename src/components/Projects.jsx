@@ -11,7 +11,7 @@ const Projects = () => {
       description: "Designed a MERN stack-based job portal website with features like job listing, user authentication, and application tracking.",
       image: "https://ucarecdn.com/54ba8b6e-09da-433b-aadd-65c4f053c4ce/job.png",
       technologies: ["React", "MongoDB", "Node", "AWS"],
-      liveUrl: "https://t3.ftcdn.net/jpg/01/26/39/54/360_F_126395469_FnlY3ZgaAZaosjmSbkgA3I5sS3UXN78T.jpg",
+      liveUrl: "http://13.204.233.7",
       codeUrl: "https://github.com/Dhivanan46/Job-portal",
       featured: true
     },

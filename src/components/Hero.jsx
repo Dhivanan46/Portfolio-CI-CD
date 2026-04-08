@@ -98,7 +98,7 @@ const Hero = () => {
             className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
             >
             <FiDownload />
-            Download Resue
+            Download Resume
             </motion.button>
             </a>
 
