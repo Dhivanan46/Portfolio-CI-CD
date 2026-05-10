@@ -48,7 +48,7 @@ const Projects = () => {
     {
       id: 5,
       title: "Digital Twin Based Solar Panel",
-      description: "Design and Development of a Digital Twin-Based IoT Integrated Solar Panel System for Real-Time Efficiency Monitoring with a Web Interface for Tracking Individual Solar Array Status.",
+      description: "Design & Development of a Digital Twin-Based IoT Integrated Solar Panel System for Real-Time Efficiency Monitoring with a Web Interface for Tracking Individual Solar Array Status.",
       image: "https://ucarecdn.com/7cf03c50-9487-44aa-9b27-7aad4af151ad/Solar.png",
       technologies: ["Arduino", "C Programming", "React", "Networking"],
       liveUrl: "https://t3.ftcdn.net/jpg/01/26/39/54/360_F_126395469_FnlY3ZgaAZaosjmSbkgA3I5sS3UXN78T.jpg",
